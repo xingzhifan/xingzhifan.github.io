@@ -1,7 +1,5 @@
 http://xingzhifan.github.io/2023/03/09/javase-java-ru-men/
 http://xingzhifan.github.io/tags/index.html
-http://xingzhifan.github.io/friends/index.html
-http://xingzhifan.github.io/contact/index.html
 http://xingzhifan.github.io/categories/index.html
 http://xingzhifan.github.io/404/index.html
 http://xingzhifan.github.io/about/index.html
