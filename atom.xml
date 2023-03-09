@@ -6,7 +6,7 @@
   <link href="http://xingzhifan.github.io/atom.xml" rel="self"/>
   
   <link href="http://xingzhifan.github.io/"/>
-  <updated>1985-10-26T08:15:00.000Z</updated>
+  <updated>2023-03-09T14:25:16.760Z</updated>
   <id>http://xingzhifan.github.io/</id>
   
   <author>
@@ -17,22 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://xingzhifan.github.io/2023/03/08/hello-world/"/>
-    <id>http://xingzhifan.github.io/2023/03/08/hello-world/</id>
-    <published>2023-03-08T15:54:55.635Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
+    <title>Java SE:Java入门</title>
+    <link href="http://xingzhifan.github.io/2023/03/09/javase-java-ru-men/"/>
+    <id>http://xingzhifan.github.io/2023/03/09/javase-java-ru-men/</id>
+    <published>2023-03-09T13:23:50.000Z</published>
+    <updated>2023-03-09T14:25:16.760Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java的特性和优势"><a href="#Java的特性和优势" class="headerlink" title="Java的特性和优势"></a>Java的特性和优势</h2><h4 id="简单性"><a href="#简单性" class="headerlink" title="简单性"></a>简单性</h4><p>比C++语法简单，没有指针、操作符重载等。</p><h4 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h4><p>面向对象是一种程序设计技术，模拟人的思维写程序，万物皆对象。</p><h4 id="可移植性（跨平台性）"><a href="#可移植性（跨平台性）" class="headerlink" title="可移植性（跨平台性）"></a>可移植性（跨平台性）</h4><p>基于Java虚拟机实现了跨平台性</p><h4 id="高性能"><a href="#高性能" class="headerlink" title="高性能"></a>高性能</h4><p>JIT（JUST IN TIME）即时编译。将一些“热点”字节码编译成本地机器码，并将结果缓存起来，在需要的时候重新调用，使得java程序的执行效率大大提高。</p><h4 id="分布式"><a href="#分布式" class="headerlink" title="分布式"></a>分布式</h4><p>Java视为Internet的分布式环境设计的，因为他能够处理TCP/IP协议。java还支持远程方法调用（RMI，remote method invocation）,使程序能够通过网络调用方法。</p><h4 id="动态性"><a href="#动态性" class="headerlink" title="动态性"></a>动态性</h4><p>就是在需要时将某些代码添加到正在运行的程序中。反射机制。</p><h4 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h4><p>多线程的使用可以带来更好的交互响应和实时行为。多线程的简单性是Java成为主流服务器端开发语言的主要原因之一。</p><h4 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h4><p>Java适合于网络/分布式环境，Java可以构建防病毒，防篡改的系统。</p><h4 id="健壮性"><a href="#健壮性" class="headerlink" title="健壮性"></a>健壮性</h4><p>Java是一种健壮的语言，吸收了C/C++语言的优点，去掉了其影响程序健壮性的部分</p><h2 id="Java三大版本"><a href="#Java三大版本" class="headerlink" title="Java三大版本"></a>Java三大版本</h2><ol><li>Java SE：它是java的标准版，是整个java的基础和核心，主要用于开发桌面程序。</li><li>Java ME：它是java的微缩版，主要用于嵌入式开发。</li><li>Java EE：它是java的企业版，提供了企业级应用开发的完整解决方案。</li></ol><h2 id="JDK和JRE"><a href="#JDK和JRE" class="headerlink" title="JDK和JRE"></a>JDK和JRE</h2><h4 id="JDK"><a href="#JDK" class="headerlink" title="JDK"></a>JDK</h4><p>Java 2 SDK（Development Kit）包含：JRE的超集，包含编译器和调试器等用户程序开发的文件</p><h4 id="JRE"><a href="#JRE" class="headerlink" title="JRE"></a>JRE</h4><p>Java Runtime Environment（JRE）：Java虚拟机、库函数、运行Java应用程序和Applet所必须的文件</p><p>Java运行环境的三项主要功能：</p><ul><li>加载代码：由class loader（类加载器）完成；</li><li>校验代码：由bytecode verifier（字节码验证器）完成</li><li>执行代码：由runtime interpreter（运行时解释器）完成</li></ul><h4 id="区别和联系"><a href="#区别和联系" class="headerlink" title="区别和联系"></a>区别和联系</h4><p>JDK是JRE的超集，在JRE的基础上增加了编译器和其他一些开发工具。</p><p>JRE是Java的运行时环境，包括JVM和其它一些Java核心API，只有安装了JRE才可以运行Java程序</p><p>只运行Java程序，只需要安装JRE；开发Java程序则需要安装JDK。</p><h2 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h2><p>代码</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test1</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>运行结果</p><pre class="line-numbers language-none"><code class="language-none">Hello world!<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="编写java程序注意事项"><a href="#编写java程序注意事项" class="headerlink" title="编写java程序注意事项"></a>编写java程序注意事项</h4><ul><li>大小写敏感：Hello和hello不同</li><li>类名：大驼峰 MyHelloWorld</li><li>方法名：小驼峰 getAge()</li><li>源文件名：源文件名必须与类名相同</li><li>主方法入口：public static void main(String[] args)为程序入口</li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h2 id=&quot;Java的特性和优势&quot;&gt;&lt;a href=&quot;#Java的特性和优势&quot; class=&quot;headerlink&quot; title=&quot;Java的特性和优势&quot;&gt;&lt;/a&gt;Java的特性和优势&lt;/h2&gt;&lt;h4 id=&quot;简单性&quot;&gt;&lt;a href=&quot;#简单性&quot; class=&quot;header</summary>
       
     
     
     
+    <category term="Java" scheme="http://xingzhifan.github.io/categories/Java/"/>
+    
+    
+    <category term="Java SE" scheme="http://xingzhifan.github.io/tags/Java-SE/"/>
     
   </entry>
   

@@ -105,6 +105,10 @@ $(function () {
             // 启用字幕
             subHtmlSelectorRelative: true
         });
+        // 解决大图loading加载图
+        $(document).find('img[data-original]').each(function(){
+            $(this).parent().attr("href", $(this).attr("data-original"));
+        });
 
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
