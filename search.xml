@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Java SE:流程控制</title>
+      <link href="/2023/03/10/javase-liu-cheng-kong-zhi/"/>
+      <url>/2023/03/10/javase-liu-cheng-kong-zhi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="用户交互Scanner"><a href="#用户交互Scanner" class="headerlink" title="用户交互Scanner"></a>用户交互Scanner</h2><h4 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h4><p>创建 Scanner 对象的基本语法：</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过 Scanner 类的 next() 与 nextLine() 方法获取输入的字符串，在读取前我们一般需要使用 hasNext() 与 hasNextLine() 判断是否还有输入的数据。 </p><p>next&amp;nextLine</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java SE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java SE:基础语法</title>
       <link href="/2023/03/10/javase-ji-chu-yu-fa/"/>
       <url>/2023/03/10/javase-ji-chu-yu-fa/</url>
