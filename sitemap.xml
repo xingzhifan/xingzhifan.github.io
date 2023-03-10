@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xingzhifan.github.io/2023/03/10/javase-ji-chu-yu-fa/</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xingzhifan.github.io/2023/03/09/javase-java-ru-men/</loc>
     
     <lastmod>2023-03-09</lastmod>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>http://xingzhifan.github.io/</loc>
-    <lastmod>2023-03-09</lastmod>
+    <lastmod>2023-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,7 +66,7 @@
   
   <url>
     <loc>http://xingzhifan.github.io/tags/Java-SE/</loc>
-    <lastmod>2023-03-09</lastmod>
+    <lastmod>2023-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -66,7 +75,7 @@
   
   <url>
     <loc>http://xingzhifan.github.io/categories/Java/</loc>
-    <lastmod>2023-03-09</lastmod>
+    <lastmod>2023-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
