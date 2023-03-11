@@ -1,3 +1,5 @@
+http://xingzhifan.github.io/2023/03/11/javase-mian-xiang-dui-xiang/
+http://xingzhifan.github.io/2023/03/11/javase-shu-zu/
 http://xingzhifan.github.io/2023/03/10/javase-fang-fa/
 http://xingzhifan.github.io/2023/03/10/javase-liu-cheng-kong-zhi/
 http://xingzhifan.github.io/2023/03/10/javase-ji-chu-yu-fa/
